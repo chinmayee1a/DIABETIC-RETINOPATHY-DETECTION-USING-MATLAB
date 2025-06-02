@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetic Retinopathy Detection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Diabetic Retinopathy Detection System</h1>
+        <form method="POST" enctype="multipart/form-data" action="http://localhost:8080/processImage">
+            <label for="fileUpload">Upload Retinal Image:</label>
+            <input type="file" id="fileUpload" name="image" accept="image/*" required>
+            <button type="submit">Detect</button>
+        </form>
+        <div id="result">
+            <!-- Results will appear here -->
+        </div>
+    </div>
+</body>
+</html>
