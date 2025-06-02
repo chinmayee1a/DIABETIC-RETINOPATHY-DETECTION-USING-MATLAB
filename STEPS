@@ -1,0 +1,23 @@
+STEP1:
+Ensure .m and .py Files Are Included
+server.py
+detectDiabeticRetinopathy.m
+index.html and styles.css (optional)
+requirements.txt
+README.md
+STEP2:
+git clone https://github.com/yourusername/diabetic-retinopathy-detector.git
+cd diabetic-retinopathy-detector
+pip install -r requirements.txt
+python server.py
+STEP3:
+Ensure MATLAB is Set Up with the Python Engine
+Launch MATLAB.
+Run:
+---
+matlab
+Copy
+Edit
+cd(fullfile(matlabroot, 'extern', 'engines', 'python'))
+system('python setup.py install')
+---
