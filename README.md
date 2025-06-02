@@ -10,7 +10,6 @@ This project provides a lightweight web-based system for detecting diabetic reti
 - MATLAB with Image Processing Toolbox
 - MATLAB Engine API for Python
 
----
 project/
 ├── server.py # Flask server to handle image upload and call MATLAB
 ├── detectDiabeticRetinopathy.m # MATLAB function for DR detection
